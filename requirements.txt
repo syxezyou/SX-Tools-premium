@@ -1,0 +1,7 @@
+customtkinter
+requests
+psutil
+Pillow
+pycryptodome
+Faker
+phonenumbers

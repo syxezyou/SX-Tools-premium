@@ -1,0 +1,436 @@
+2025-05-24 10:36:18,144 - mxtools_global - INFO - Performing IP lookup for: 1.1.1.1
+2025-05-24 10:36:18,369 - mxtools_global - INFO - IP lookup successful for 1.1.1.1
+2025-05-24 10:36:18,374 - mxtools_global - INFO - Results displayed.
+2025-05-24 10:36:32,251 - mxtools_global - INFO - Analyzing email: kripiman6409@gmail.com
+2025-05-24 10:36:33,130 - mxtools_global - INFO - Email analysis complete for: kripiman6409@gmail.com
+2025-05-24 10:36:33,133 - mxtools_global - INFO - Results displayed.
+2025-05-24 10:38:24,315 - mxtools_global - INFO - Performing IP lookup for: 1.1.1.1
+2025-05-24 10:38:24,575 - mxtools_global - INFO - IP lookup successful for 1.1.1.1
+2025-05-24 10:38:24,585 - mxtools_global - INFO - Results displayed.
+2025-05-24 10:38:37,779 - mxtools_global - INFO - Analyzing email: kripiman6409@gmail.com
+2025-05-24 10:38:38,248 - mxtools_global - INFO - Email analysis complete for: kripiman6409@gmail.com
+2025-05-24 10:38:38,251 - mxtools_global - INFO - Results displayed.
+2025-05-24 10:58:13,913 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:00:34,484 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:01:12,682 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:02:27,452 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:27,453 - mxtools_global - INFO - Performing WHOIS lookup for: https://www.flixora.mov/
+2025-05-24 11:02:27,457 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:27,457 - mxtools_global - ERROR - Error in get_whois_info: module 'whois' has no attribute 'parser'
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\MegaXod\MXV2\core\osint\whois_dns.py", line 10, in get_whois_info
+    w = whois.whois(domain_or_ip)
+        ^^^^^^^^^^^
+AttributeError: module 'whois' has no attribute 'whois'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\MegaXod\MXV2\gui\main_window.py", line 157, in threaded_task
+    result = target_func(*args)
+  File "C:\Users\kripi\Desktop\MegaXod\MXV2\core\osint\whois_dns.py", line 20, in get_whois_info
+    except whois.parser.PywhoisError as e: # Gère les erreurs spécifiques de la lib
+           ^^^^^^^^^^^^
+AttributeError: module 'whois' has no attribute 'parser'
+2025-05-24 11:02:35,461 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:35,462 - mxtools_global - INFO - Performing DNS lookup for: https://www.flixora.mov/
+2025-05-24 11:02:36,156 - mxtools_global - WARNING - DNS lookup failed for https://www.flixora.mov/: NXDOMAIN (Non-Existent Domain)
+2025-05-24 11:02:36,159 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:40,569 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:02:49,982 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:49,982 - mxtools_global - INFO - Attempting to identify hash type for: ...
+2025-05-24 11:02:49,985 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:51,124 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:51,124 - mxtools_global - INFO - Attempting to identify hash type for: ...
+2025-05-24 11:02:51,127 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:51,756 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:51,756 - mxtools_global - INFO - Attempting to identify hash type for: ...
+2025-05-24 11:02:51,762 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:02:52,540 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:02:56,636 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:02:57,243 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:02:58,019 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:02:58,969 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:02:59,450 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:07:41,052 - mxtools_global - INFO - Config file mxtools_config.json not found. Loading default config.
+2025-05-24 11:07:42,574 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 11:07:42,575 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:07:46,418 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:07:52,142 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:07:52,142 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 11:07:52,142 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 11:07:52,151 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:08:31,858 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:08:43,315 - mxtools_global - INFO - New accent color selected: #0bf4c6
+2025-05-24 11:08:43,319 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:08:43,370 - mxtools_global - INFO - UI accent color updated to: #0bf4c6
+2025-05-24 11:08:47,186 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:08:52,747 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:09:01,923 - mxtools_global - INFO - New accent color selected: #ff0000
+2025-05-24 11:09:01,928 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:09:01,980 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 11:09:03,290 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:10:34,366 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 11:10:35,879 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 11:10:35,879 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:10:40,184 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:10:43,272 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:10:45,969 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:10:53,644 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:10:53,645 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 11:10:53,645 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 11:10:53,649 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:11:00,704 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:11:04,827 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:11:04,827 - mxtools_global - INFO - Appearance mode changed to: System
+2025-05-24 11:11:05,231 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:11:05,231 - mxtools_global - INFO - Appearance mode changed to: Dark
+2025-05-24 11:11:05,893 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:11:05,893 - mxtools_global - INFO - Appearance mode changed to: Light
+2025-05-24 11:11:07,008 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 11:11:07,008 - mxtools_global - INFO - Appearance mode changed to: Dark
+2025-05-24 11:11:07,921 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:11:23,673 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:11:24,170 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:11:24,529 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:11:24,916 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:11:25,353 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:11:27,500 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:11:27,501 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 11:11:27,502 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 11:11:27,510 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:11:28,615 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:11:28,615 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 11:11:28,616 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 11:11:28,620 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:11:36,504 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:11:50,450 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:11:50,931 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:11:51,329 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:11:51,832 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:11:52,569 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:11:54,248 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:11:54,570 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:11:54,858 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:11:55,298 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:11:57,218 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:19:35,225 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 11:19:36,709 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 11:19:36,709 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:19:46,439 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 11:19:59,654 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 11:20:04,286 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 11:20:08,223 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:20:08,223 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 11:20:08,224 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 11:20:08,233 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:20:19,383 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 11:20:26,406 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 11:20:36,487 - mxtools_global - INFO - Results displayed.
+2025-05-24 11:20:36,488 - mxtools_global - INFO - Performing IP lookup for: 1.1.1.1
+2025-05-24 11:20:36,713 - mxtools_global - INFO - IP lookup successful for 1.1.1.1
+2025-05-24 11:20:36,718 - mxtools_global - INFO - Results displayed.
+2025-05-24 12:50:40,149 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 12:50:53,520 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 12:53:59,096 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 12:56:55,841 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 12:56:57,747 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 12:56:57,747 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 12:57:01,619 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 12:57:02,171 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 12:57:02,547 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 12:57:03,411 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 12:57:03,899 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:03:01,915 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 13:03:03,818 - mxtools_global - INFO - UI accent color updated to: #ff0000
+2025-05-24 13:03:03,819 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:03:07,277 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 13:03:25,674 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:03:31,962 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 13:03:32,498 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 13:03:33,113 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 13:04:35,648 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:43,494 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:44,383 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:44,591 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:44,791 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:44,951 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:48,271 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:04:48,991 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:08,462 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:09,183 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:13,894 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:14,742 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:14,937 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:15,486 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:16,150 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:17,008 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:17,702 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:20,335 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:20,335 - mxtools_global - INFO - Attempting to decrypt text (use_salt: True)
+2025-05-24 13:05:20,336 - mxtools_global - ERROR - Decryption failed (ValueError): Ciphertext is too short to contain salt and IV.
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\MegaXod\MXV3\core\tools\crypter.py", line 72, in decrypt_text
+    raise ValueError("Ciphertext is too short to contain salt and IV.")
+ValueError: Ciphertext is too short to contain salt and IV.
+2025-05-24 13:05:20,340 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:21,470 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:05:21,471 - mxtools_global - INFO - Attempting to encrypt text (use_salt: True)
+2025-05-24 13:05:22,023 - mxtools_global - INFO - Text encryption successful.
+2025-05-24 13:05:22,028 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:08,646 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:09,295 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:09,495 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:09,679 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:09,870 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:06:10,047 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:29,445 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:29,445 - mxtools_global - INFO - Attempting to decrypt text (use_salt: True)
+2025-05-24 13:07:29,445 - mxtools_global - ERROR - Decryption failed (ValueError): Ciphertext is too short to contain salt and IV.
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\MegaXod\MXV3\core\tools\crypter.py", line 72, in decrypt_text
+    raise ValueError("Ciphertext is too short to contain salt and IV.")
+ValueError: Ciphertext is too short to contain salt and IV.
+2025-05-24 13:07:29,449 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:32,485 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:32,486 - mxtools_global - INFO - Attempting to decrypt text (use_salt: True)
+2025-05-24 13:07:32,486 - mxtools_global - ERROR - Decryption failed (ValueError): Ciphertext is too short to contain salt and IV.
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\MegaXod\MXV3\core\tools\crypter.py", line 72, in decrypt_text
+    raise ValueError("Ciphertext is too short to contain salt and IV.")
+ValueError: Ciphertext is too short to contain salt and IV.
+2025-05-24 13:07:32,490 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:37,348 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:37,348 - mxtools_global - INFO - Attempting to decrypt text (use_salt: False)
+2025-05-24 13:07:37,349 - mxtools_global - ERROR - Unpadding failed, likely incorrect password or corrupted data: Zero-length input cannot be unpadded
+2025-05-24 13:07:37,352 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:39,058 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:39,058 - mxtools_global - INFO - Attempting to decrypt text (use_salt: False)
+2025-05-24 13:07:39,058 - mxtools_global - ERROR - Unpadding failed, likely incorrect password or corrupted data: Zero-length input cannot be unpadded
+2025-05-24 13:07:39,062 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:39,517 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:39,517 - mxtools_global - INFO - Attempting to decrypt text (use_salt: False)
+2025-05-24 13:07:39,517 - mxtools_global - ERROR - Unpadding failed, likely incorrect password or corrupted data: Zero-length input cannot be unpadded
+2025-05-24 13:07:39,520 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:41,017 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 13:07:41,977 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 13:07:42,914 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 13:07:43,433 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:07:44,194 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 13:07:45,578 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:07:49,091 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:49,091 - mxtools_global - INFO - Attempting to extract metadata from: No file selected
+2025-05-24 13:07:49,092 - mxtools_global - ERROR - File not found or path is empty: No file selected
+2025-05-24 13:07:49,095 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:53,254 - mxtools_global - INFO - File selected: E:/téléchargement/12952e-MenyooSP.zip
+2025-05-24 13:07:54,314 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:54,314 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/12952e-MenyooSP.zip
+2025-05-24 13:07:54,315 - mxtools_global - WARNING - Unsupported file type for metadata extraction: .zip
+2025-05-24 13:07:54,320 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:55,850 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:55,850 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/12952e-MenyooSP.zip
+2025-05-24 13:07:55,850 - mxtools_global - WARNING - Unsupported file type for metadata extraction: .zip
+2025-05-24 13:07:55,855 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:58,363 - mxtools_global - INFO - File selected: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:07:59,066 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:07:59,066 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:07:59,162 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:07:59,169 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:00,861 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:00,861 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:00,883 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:00,889 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:01,331 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:01,332 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:01,353 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:01,356 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:01,755 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:01,755 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:01,777 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:01,780 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,075 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,075 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:02,096 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:02,099 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,299 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,300 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:02,321 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:02,325 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,516 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,516 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:02,537 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:02,542 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,731 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,731 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:02,753 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:02,756 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,947 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:02,947 - mxtools_global - INFO - Attempting to extract metadata from: E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png
+2025-05-24 13:08:02,969 - mxtools_global - INFO - Info for metadata extraction from E:/téléchargement/ChatGPT Image 16 mai 2025, 18_41_51.png: No EXIF data found.
+2025-05-24 13:08:02,972 - mxtools_global - INFO - Results displayed.
+2025-05-24 13:08:03,657 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 13:08:04,201 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 13:08:05,601 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 13:08:06,049 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-24 13:12:08,499 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 13:12:21,017 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-05-24 14:22:51,814 - mxtools_global - INFO - Results displayed.
+2025-05-24 14:22:51,815 - mxtools_global - INFO - Performing IP lookup for: 1.1.1.1
+2025-05-24 14:22:52,037 - mxtools_global - INFO - IP lookup successful for 1.1.1.1
+2025-05-24 14:22:52,045 - mxtools_global - INFO - Results displayed.
+2025-05-24 14:23:02,754 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 14:23:09,858 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 14:23:11,338 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 14:23:23,429 - mxtools_global - INFO - Results displayed.
+2025-05-24 14:23:23,430 - mxtools_global - INFO - Generating fake identity with locale_choice: fr_FR
+2025-05-24 14:23:23,433 - mxtools_global - INFO - Fake identity generated for locale ['fr_FR']
+2025-05-24 14:23:23,435 - mxtools_global - INFO - Results displayed.
+2025-05-24 14:25:22,466 - mxtools_global - INFO - Switched to category: Settings
+2025-05-24 14:25:29,056 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 14:25:29,057 - mxtools_global - INFO - Appearance mode: Light
+2025-05-24 14:25:30,182 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 14:25:30,182 - mxtools_global - INFO - Appearance mode: System
+2025-05-24 14:25:32,686 - mxtools_global - INFO - Configuration saved to mxtools_config.json
+2025-05-24 14:25:32,686 - mxtools_global - INFO - Appearance mode: Dark
+2025-05-24 14:25:33,545 - mxtools_global - INFO - Switched to category: Tools
+2025-05-24 14:25:33,905 - mxtools_global - INFO - Switched to category: Network
+2025-05-24 14:25:34,281 - mxtools_global - INFO - Switched to category: CSINT
+2025-05-24 14:25:34,681 - mxtools_global - INFO - Switched to category: OSINT
+2025-05-25 12:56:48,297 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:44:24,252 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:45:52,583 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:46:52,093 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:47:34,648 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:48:15,394 - mxtools_global - INFO - Performing IP lookup for: 1.1.1.1
+2025-11-02 02:48:15,685 - mxtools_global - INFO - IP lookup successful for 1.1.1.1
+2025-11-02 02:52:19,329 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:53:44,419 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 02:53:48,203 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:53:55,069 - mxtools_global - INFO - Attempting to change hostname to: MX-A1R8YCO856GO
+2025-11-02 02:53:55,275 - mxtools_global - INFO - Hostname change command output: Ex‚cution (\\23509\ROOT\CIMV2:Win32_ComputerSystem.Name="23509")->rename()
+
+M‚thode ex‚cut‚e.
+
+ParamŠtres de sortieÿ:
+instance of __PARAMETERS
+{
+	ReturnValue = 0;
+};
+
+2025-11-02 02:53:55,285 - mxtools_global - INFO - Attempting to spoof MAC for interface 'Ethernet' to '02:44:6f:fd:df:f2'
+2025-11-02 02:54:18,014 - mxtools_global - INFO - MAC spoof command output: 
+2025-11-02 02:57:42,211 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 02:57:45,971 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 02:57:56,473 - mxtools_global - INFO - Attempting to change hostname to: MX-E6ZDHWKGDPVN
+2025-11-02 02:57:56,642 - mxtools_global - INFO - Hostname change command output: Ex‚cution (\\23509\ROOT\CIMV2:Win32_ComputerSystem.Name="23509")->rename()
+
+M‚thode ex‚cut‚e.
+
+ParamŠtres de sortieÿ:
+instance of __PARAMETERS
+{
+	ReturnValue = 0;
+};
+
+2025-11-02 02:57:56,652 - mxtools_global - INFO - Attempting to spoof MAC for interface 'Ethernet' to '02:1f:e9:60:94:e3'
+2025-11-02 02:58:06,081 - mxtools_global - INFO - MAC spoof command output: 
+2025-11-02 03:00:57,752 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:01:01,092 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:01:27,986 - mxtools_global - INFO - Fetching Discord user info for ID: 1340626510557610026
+2025-11-02 03:01:28,552 - mxtools_global - ERROR - HTTP Error fetching user info for 1340626510557610026: 401 Client Error: Unauthorized for url: https://discord.com/api/v9/users/1340626510557610026
+2025-11-02 03:02:32,077 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:02:35,846 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:02:45,727 - mxtools_global - INFO - Fetching Discord user info for ID: 1340626510557610026
+2025-11-02 03:04:32,643 - mxtools_global - INFO - Fetching info for invite code: https://discord.gg/inconnu
+2025-11-02 03:04:54,649 - mxtools_global - INFO - Fetching info for invite code: https://discord.gg/u4TvAJUC
+2025-11-02 03:05:25,082 - mxtools_global - INFO - Sending message to webhook.
+2025-11-02 03:07:12,003 - mxtools_global - INFO - Starting social media profile search for username: sxosyx
+2025-11-02 03:07:13,341 - mxtools_global - INFO - Found profile for 'sxosyx' on Twitch: https://www.twitch.tv/sxosyx
+2025-11-02 03:07:13,470 - mxtools_global - INFO - Found profile for 'sxosyx' on TikTok: https://www.tiktok.com/@sxosyx
+2025-11-02 03:07:13,575 - mxtools_global - INFO - Found profile for 'sxosyx' on Instagram: https://www.instagram.com/sxosyx
+2025-11-02 03:07:14,013 - mxtools_global - INFO - Found profile for 'sxosyx' on Twitter / X: https://twitter.com/sxosyx
+2025-11-02 03:07:14,024 - mxtools_global - INFO - Found profile for 'sxosyx' on YouTube: https://www.youtube.com/@sxosyx
+2025-11-02 03:07:14,137 - mxtools_global - INFO - Found profile for 'sxosyx' on Reddit: https://www.reddit.com/user/sxosyx
+2025-11-02 03:07:14,331 - mxtools_global - INFO - Found profile for 'sxosyx' on Pinterest: https://www.pinterest.com/sxosyx
+2025-11-02 03:07:14,331 - mxtools_global - INFO - Social media profile search finished for 'sxosyx'.
+2025-11-02 03:09:57,920 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:10:01,266 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:16:18,858 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:16:22,152 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:19:03,249 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:19:06,264 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:19:29,186 - mxtools_global - INFO - Attempting to change hostname to: MX-SUR6US9IE6DG
+2025-11-02 03:19:29,361 - mxtools_global - INFO - Hostname change command output: Ex‚cution (\\23509\ROOT\CIMV2:Win32_ComputerSystem.Name="23509")->rename()
+
+M‚thode ex‚cut‚e.
+
+ParamŠtres de sortieÿ:
+instance of __PARAMETERS
+{
+	ReturnValue = 0;
+};
+
+2025-11-02 03:19:29,371 - mxtools_global - INFO - Attempting to spoof MAC for interface 'Ethernet' to '02:2c:1d:4b:fa:1d'
+2025-11-02 03:19:37,898 - mxtools_global - INFO - MAC spoof command output: 
+2025-11-02 03:23:27,525 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:23:30,869 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:23:37,894 - mxtools_global - INFO - FPS Boost applied.
+2025-11-02 03:25:03,791 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:25:06,840 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:25:20,383 - mxtools_global - INFO - FPS Boost applied.
+2025-11-02 03:25:29,417 - mxtools_global - INFO - FPS Boost reverted.
+2025-11-02 03:25:36,921 - mxtools_global - INFO - FPS Boost applied.
+2025-11-02 03:26:55,096 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:26:59,086 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:30:36,486 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 03:30:39,699 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 03:30:59,965 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:01,944 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:02,455 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:02,901 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:03,287 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:03,618 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:04,215 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:04,962 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:05,415 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:05,781 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:06,117 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:06,499 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:07,012 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:07,377 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:07,702 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:08,144 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:08,548 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:08,960 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:09,299 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:16,342 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:17,008 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:17,558 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:18,061 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:18,530 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:18,981 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:19,429 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:19,807 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:20,205 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:20,571 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:20,928 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:21,304 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:21,598 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:21,893 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:22,197 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:22,608 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:23,031 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 03:31:23,676 - mxtools_global - INFO - Starting network connection monitoring.
+2025-11-02 11:22:53,803 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 11:22:57,032 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 11:23:10,851 - mxtools_global - WARNING - Initiating Windows Event Log clearing.
+2025-11-02 11:23:20,028 - mxtools_global - INFO - Setting telemetry services to Enabled.
+2025-11-02 11:23:20,861 - mxtools_global - INFO - Successfully cleared all event logs.
+2025-11-02 11:23:23,087 - mxtools_global - INFO - Setting telemetry services to Disabled.
+2025-11-02 11:25:16,811 - mxtools_global - INFO - Setting telemetry services to Enabled.
+2025-11-02 11:25:58,998 - mxtools_global - INFO - FPS Boost applied.
+2025-11-02 11:26:00,246 - mxtools_global - INFO - FPS Boost reverted.
+2025-11-02 11:27:57,787 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 11:28:00,988 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
+2025-11-02 11:37:59,218 - mxtools_global - WARNING - Not running as admin. Attempting to re-launch with admin rights.
+2025-11-02 11:38:02,632 - mxtools_global - INFO - Configuration loaded from mxtools_config.json
