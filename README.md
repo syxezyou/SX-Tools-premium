@@ -65,7 +65,7 @@ Ce projet nécessite **Python 3.10** ou une version plus récente.
 **1. Clonez le dépôt :**
 ```bash
 git clone https://github.com/syxezyou/SX-Tools-premium.git
-cd VOTRE_REPO
+cd SX-Tools-premium
 ```
 
 **2. Installez les dépendances :**
